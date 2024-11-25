@@ -1,0 +1,125 @@
+body {
+	background-color: black;
+}
+
+h1 {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	color: white;
+	text-align: center;
+}
+
+div {
+	color: white;
+}
+
+.grid{
+	display: grid;
+	text-align: center;
+	width: 80vx;
+	height: 1000px;
+	opacity: 0.7;
+
+	grid-template: repeat(9,1fr) / repeat(9, 1fr);
+	grid-template-areas:
+	".   .   .   .   .   .   .   N16 ."
+	".   N22 .   .   .   N23 .   N16 ."
+	".   N22 .   N20 .   N23 .   .   ."
+	".   .   .   N20 .   .   .   .   ."  
+	".   N17 .   .   .   .   N24 .   ."
+	".   N17 .   .   .   N19 N24 .   ."
+	".   .   .   N21 .   N19 .   N18 ."
+	".   .   .   N21 .   .   .   N18 ."
+
+
+}
+
+.NBA2016{
+	grid-area: N16;
+	background-position: center;
+	background-image: url("2016.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.NBA2017{
+	grid-area: N17;
+	background-position: center;
+	background-image: url("2017.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.NBA2018{
+	grid-area: N18;
+	background-position: center;
+	background-image: url("2018.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.NBA2019{
+	grid-area: N19;
+	background-position: center;
+	background-image: url("2019.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.NBA2020{
+	grid-area: N20;
+	background-position: center;
+	background-image: url("2020.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.NBA2021{
+	grid-area: N21;
+	background-position: center;
+	background-image: url("2021.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.NBA2022{
+	grid-area: N22;
+	background-position: center;
+	background-image: url("2022.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.NBA2023{
+	grid-area: N23;
+	background-position: center;
+	background-image: url("2023.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.NBA2024{
+	grid-area: N24;
+	background-position: center;
+	background-image: url("2024.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+img {
+	width: 70%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	position: sticky;
+}
+
+#Champs{
+	color: white;
+}
+
+.contentItem{
+	width: 60%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-width: 10px;
+	border-style: solid;
+	margin-bottom: 50px;
+}
+
+.contentTitle{
+	margin-left: 20px;
+}
